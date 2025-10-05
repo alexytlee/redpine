@@ -8,31 +8,31 @@
   "home": {
     "title": "Red Pine",
     "subtitle": "Digital Asset Trading Platform",
-    "description": "We are building a secure and compliant cryptocurrency exchange platform for Hong Kong.",
+    "description": "Opening up the world of crypto for everyone. We are building a secure and compliant platform with staking, crypto-native products, and accessible trading for the masses.",
     "comingSoon": "Coming Soon",
     "secure": {
       "title": "Secure",
       "desc": "Multi-layer security architecture with cold storage"
     },
     "compliant": {
-      "title": "Compliant",
-      "desc": "Built to meet Hong Kong regulatory standards"
+      "title": "Compliant Future",
+      "desc": "Building with Hong Kong regulatory standards from day one"
     },
     "reliable": {
-      "title": "Reliable",
-      "desc": "Professional-grade trading infrastructure"
+      "title": "Accessible",
+      "desc": "Simplified access to staking and crypto-native products"
     }
   },
   "about": {
     "title": "About Red Pine",
-    "subtitle": "Building the future of digital asset trading in Hong Kong",
+    "subtitle": "Opening up crypto for everyone with compliance and accessibility",
     "vision": {
       "title": "Our Vision",
-      "content": "Red Pine is being developed to provide a secure, compliant, and user-friendly platform for digital asset trading in Hong Kong. We are committed to meeting the highest standards of regulatory compliance and security."
+      "content": "Red Pine is being built to make cryptocurrency accessible to everyone. We believe the future of digital assets should be open, secure, and compliant. By simplifying access to staking, crypto-native products, and trading, we're opening up the entire crypto ecosystem for the masses."
     },
     "mission": {
       "title": "Our Mission",
-      "content": "To create a trusted digital asset exchange that serves both retail and institutional clients with professional-grade infrastructure, robust security measures, and exceptional service."
+      "content": "To democratize access to digital assets by building a secure and compliant platform from the ground up. We're enabling everyone to participate in staking, DeFi, and crypto-native products while meeting Hong Kong's regulatory standards."
     },
     "whyHK": {
       "title": "Why Hong Kong",
