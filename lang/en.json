@@ -1,0 +1,136 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "security": "Security",
+    "support": "Support"
+  },
+  "home": {
+    "title": "Red Pine",
+    "subtitle": "Digital Asset Trading Platform",
+    "description": "We are building a secure and compliant cryptocurrency exchange platform for Hong Kong.",
+    "comingSoon": "Coming Soon",
+    "secure": {
+      "title": "Secure",
+      "desc": "Multi-layer security architecture with cold storage"
+    },
+    "compliant": {
+      "title": "Compliant",
+      "desc": "Built to meet Hong Kong regulatory standards"
+    },
+    "reliable": {
+      "title": "Reliable",
+      "desc": "Professional-grade trading infrastructure"
+    }
+  },
+  "about": {
+    "title": "About Red Pine",
+    "subtitle": "Building the future of digital asset trading in Hong Kong",
+    "vision": {
+      "title": "Our Vision",
+      "content": "Red Pine is being developed to provide a secure, compliant, and user-friendly platform for digital asset trading in Hong Kong. We are committed to meeting the highest standards of regulatory compliance and security."
+    },
+    "mission": {
+      "title": "Our Mission",
+      "content": "To create a trusted digital asset exchange that serves both retail and institutional clients with professional-grade infrastructure, robust security measures, and exceptional service."
+    },
+    "whyHK": {
+      "title": "Why Hong Kong",
+      "content": "Hong Kong's progressive regulatory framework and position as a global financial hub make it an ideal location for a compliant digital asset exchange. We are building Red Pine to contribute to Hong Kong's digital asset ecosystem."
+    },
+    "features": {
+      "security": {
+        "title": "🔒 Security First",
+        "desc": "Multi-layer security architecture with institutional-grade cold storage solutions."
+      },
+      "compliance": {
+        "title": "✅ Compliance",
+        "desc": "Built from the ground up to meet Hong Kong's regulatory requirements."
+      },
+      "performance": {
+        "title": "⚡ Performance",
+        "desc": "High-performance trading engine designed for reliability and speed."
+      },
+      "trust": {
+        "title": "🤝 Trust",
+        "desc": "Transparent operations and commitment to customer protection."
+      }
+    }
+  },
+  "security": {
+    "title": "Security",
+    "subtitle": "Your assets' security is our top priority",
+    "intro": {
+      "title": "Multi-Layer Security Architecture",
+      "content": "Red Pine is being built with institutional-grade security measures to protect your digital assets. Our comprehensive security approach includes multiple layers of protection."
+    },
+    "features": {
+      "coldStorage": {
+        "title": "🏦 Cold Storage",
+        "desc": "The majority of digital assets will be stored in offline cold wallets, protected from online threats."
+      },
+      "multiSig": {
+        "title": "🔐 Multi-Signature",
+        "desc": "Multi-signature technology requiring multiple approvals for transactions."
+      },
+      "ddos": {
+        "title": "🛡️ DDoS Protection",
+        "desc": "Advanced protection against distributed denial-of-service attacks."
+      },
+      "twoFA": {
+        "title": "🔑 2FA Authentication",
+        "desc": "Two-factor authentication for all account access and withdrawals."
+      },
+      "monitoring": {
+        "title": "🔍 Real-Time Monitoring",
+        "desc": "24/7 security monitoring and anomaly detection systems."
+      },
+      "infrastructure": {
+        "title": "🏗️ Secure Infrastructure",
+        "desc": "Enterprise-grade infrastructure with regular security audits."
+      }
+    },
+    "compliance": {
+      "title": "Compliance & Regulation",
+      "content": "We are building Red Pine to comply with Hong Kong's regulatory framework for virtual asset trading platforms. Our commitment to compliance ensures a secure and trustworthy environment for all users."
+    },
+    "dataProtection": {
+      "title": "Data Protection",
+      "content": "User data is encrypted and stored securely. We implement best practices in data protection and privacy, ensuring your personal information remains confidential."
+    }
+  },
+  "support": {
+    "title": "Support",
+    "subtitle": "Get ready for launch - Support coming soon",
+    "faqTitle": "Frequently Asked Questions",
+    "faq": {
+      "launch": {
+        "q": "When will Red Pine launch?",
+        "a": "We are currently in development. Stay tuned for updates on our launch timeline."
+      },
+      "crypto": {
+        "q": "What cryptocurrencies will be supported?",
+        "a": "Details on supported cryptocurrencies will be announced closer to launch. We plan to support major digital assets in compliance with Hong Kong regulations."
+      },
+      "who": {
+        "q": "Who can use Red Pine?",
+        "a": "Red Pine will serve both retail and institutional clients. Specific eligibility requirements will be shared during our launch announcement."
+      },
+      "licensed": {
+        "q": "Is Red Pine licensed?",
+        "a": "We are building Red Pine to meet Hong Kong's regulatory requirements for virtual asset trading platforms."
+      },
+      "updates": {
+        "q": "How can I stay updated?",
+        "a": "Check back on this website regularly for updates on our launch and platform features."
+      }
+    },
+    "contact": {
+      "title": "Contact Information",
+      "content": "For general inquiries, please check back soon for our contact details."
+    }
+  },
+  "footer": {
+    "copyright": "© 2025 Red Pine. All rights reserved."
+  }
+}

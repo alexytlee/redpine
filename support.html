@@ -17,11 +17,22 @@
             </a>
           </div>
           <ul class="nav-links">
-            <li><a href="index.html">Home</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="security.html">Security</a></li>
-            <li><a href="support.html" class="active">Support</a></li>
+            <li><a href="index.html" data-i18n="nav.home">Home</a></li>
+            <li><a href="about.html" data-i18n="nav.about">About</a></li>
+            <li><a href="security.html" data-i18n="nav.security">Security</a></li>
+            <li><a href="support.html" class="active" data-i18n="nav.support">Support</a></li>
           </ul>
+          <div class="language-selector">
+            <div class="lang-button">
+              <span class="current-lang">EN</span>
+              <span class="lang-icon"></span>
+            </div>
+            <div class="language-dropdown">
+              <button data-lang="en">English</button>
+              <button data-lang="zh-hant">繁體中文</button>
+              <button data-lang="zh-hans">简体中文</button>
+            </div>
+          </div>
         </div>
       </nav>
     </header>
@@ -29,26 +40,26 @@
     <main>
       <div class="page-container">
         <div class="page-header">
-          <h1>Support</h1>
-          <p class="page-subtitle">
+          <h1 data-i18n="support.title">Support</h1>
+          <p class="page-subtitle" data-i18n="support.subtitle">
             Get ready for launch - Support coming soon
           </p>
         </div>
 
         <section class="content-section">
-          <h2>Frequently Asked Questions</h2>
-
+          <h2 data-i18n="support.faqTitle">Frequently Asked Questions</h2>
+          
           <div class="faq-item">
-            <h3>When will Red Pine launch?</h3>
-            <p>
+            <h3 data-i18n="support.faq.launch.q">When will Red Pine launch?</h3>
+            <p data-i18n="support.faq.launch.a">
               We are currently in development. Stay tuned for updates on our
               launch timeline.
             </p>
           </div>
 
           <div class="faq-item">
-            <h3>What cryptocurrencies will be supported?</h3>
-            <p>
+            <h3 data-i18n="support.faq.crypto.q">What cryptocurrencies will be supported?</h3>
+            <p data-i18n="support.faq.crypto.a">
               Details on supported cryptocurrencies will be announced closer to
               launch. We plan to support major digital assets in compliance with
               Hong Kong regulations.
@@ -56,25 +67,25 @@
           </div>
 
           <div class="faq-item">
-            <h3>Who can use Red Pine?</h3>
-            <p>
-              Red Pine will serve both retail and institutional clients.
-              Specific eligibility requirements will be shared during our launch
+            <h3 data-i18n="support.faq.who.q">Who can use Red Pine?</h3>
+            <p data-i18n="support.faq.who.a">
+              Red Pine will serve both retail and institutional clients. Specific
+              eligibility requirements will be shared during our launch
               announcement.
             </p>
           </div>
 
           <div class="faq-item">
-            <h3>Is Red Pine licensed?</h3>
-            <p>
+            <h3 data-i18n="support.faq.licensed.q">Is Red Pine licensed?</h3>
+            <p data-i18n="support.faq.licensed.a">
               We are building Red Pine to meet Hong Kong's regulatory
               requirements for virtual asset trading platforms.
             </p>
           </div>
 
           <div class="faq-item">
-            <h3>How can I stay updated?</h3>
-            <p>
+            <h3 data-i18n="support.faq.updates.q">How can I stay updated?</h3>
+            <p data-i18n="support.faq.updates.a">
               Check back on this website regularly for updates on our launch and
               platform features.
             </p>
@@ -82,8 +93,8 @@
         </section>
 
         <section class="content-section">
-          <h2>Contact Information</h2>
-          <p>
+          <h2 data-i18n="support.contact.title">Contact Information</h2>
+          <p data-i18n="support.contact.content">
             For general inquiries, please check back soon for our contact
             details.
           </p>
@@ -92,8 +103,9 @@
     </main>
 
     <footer>
-      <p>&copy; 2025 Red Pine. All rights reserved.</p>
+      <p data-i18n="footer.copyright">&copy; 2025 Red Pine. All rights reserved.</p>
     </footer>
+    <script src="i18n.js"></script>
     <script src="script.js"></script>
   </body>
 </html>

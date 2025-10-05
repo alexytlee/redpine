@@ -3,16 +3,28 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="Red Pine - A secure and compliant digital asset trading platform for Hong Kong. Coming soon." />
-    <meta name="keywords" content="cryptocurrency, exchange, Hong Kong, digital assets, crypto trading" />
+    <meta
+      name="description"
+      content="Red Pine - A secure and compliant digital asset trading platform for Hong Kong. Coming soon."
+    />
+    <meta
+      name="keywords"
+      content="cryptocurrency, exchange, Hong Kong, digital assets, crypto trading"
+    />
     <meta name="author" content="Red Pine" />
-    
+
     <!-- Open Graph / Social Media -->
     <meta property="og:type" content="website" />
     <meta property="og:url" content="https://redpine.hk/" />
-    <meta property="og:title" content="Red Pine - Digital Asset Trading Platform" />
-    <meta property="og:description" content="A secure and compliant cryptocurrency exchange platform for Hong Kong. Coming soon." />
-    
+    <meta
+      property="og:title"
+      content="Red Pine - Digital Asset Trading Platform"
+    />
+    <meta
+      property="og:description"
+      content="A secure and compliant cryptocurrency exchange platform for Hong Kong. Coming soon."
+    />
+
     <title>Red Pine - Digital Asset Trading Platform</title>
     <link rel="stylesheet" href="styles.css" />
   </head>
@@ -26,11 +38,22 @@
             </a>
           </div>
           <ul class="nav-links">
-            <li><a href="index.html" class="active">Home</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="security.html">Security</a></li>
-            <li><a href="support.html">Support</a></li>
+            <li><a href="index.html" class="active" data-i18n="nav.home">Home</a></li>
+            <li><a href="about.html" data-i18n="nav.about">About</a></li>
+            <li><a href="security.html" data-i18n="nav.security">Security</a></li>
+            <li><a href="support.html" data-i18n="nav.support">Support</a></li>
           </ul>
+          <div class="language-selector">
+            <div class="lang-button">
+              <span class="current-lang">EN</span>
+              <span class="lang-icon"></span>
+            </div>
+            <div class="language-dropdown">
+              <button data-lang="en">English</button>
+              <button data-lang="zh-hant">繁體中文</button>
+              <button data-lang="zh-hans">简体中文</button>
+            </div>
+          </div>
         </div>
       </nav>
     </header>
@@ -41,26 +64,26 @@
           <img src="assets/logo/redpine.png" alt="Red Pine" class="logo" />
         </div>
         <div class="divider"></div>
-        <p class="subtitle">Digital Asset Trading Platform</p>
-        <p class="description">
+        <p class="subtitle" data-i18n="home.subtitle">Digital Asset Trading Platform</p>
+        <p class="description" data-i18n="home.description">
           We are building a secure and compliant cryptocurrency exchange
           platform for Hong Kong.
         </p>
-        <p class="coming-soon">Coming Soon</p>
+        <p class="coming-soon" data-i18n="home.comingSoon">Coming Soon</p>
 
         <div class="info-section">
           <div class="info-grid">
             <div class="info-item">
-              <h3>Secure</h3>
-              <p>Multi-layer security architecture with cold storage</p>
+              <h3 data-i18n="home.secure.title">Secure</h3>
+              <p data-i18n="home.secure.desc">Multi-layer security architecture with cold storage</p>
             </div>
             <div class="info-item">
-              <h3>Compliant</h3>
-              <p>Built to meet Hong Kong regulatory standards</p>
+              <h3 data-i18n="home.compliant.title">Compliant</h3>
+              <p data-i18n="home.compliant.desc">Built to meet Hong Kong regulatory standards</p>
             </div>
             <div class="info-item">
-              <h3>Reliable</h3>
-              <p>Professional-grade trading infrastructure</p>
+              <h3 data-i18n="home.reliable.title">Reliable</h3>
+              <p data-i18n="home.reliable.desc">Professional-grade trading infrastructure</p>
             </div>
           </div>
         </div>
@@ -68,8 +91,9 @@
     </main>
 
     <footer>
-      <p>&copy; 2025 Red Pine. All rights reserved.</p>
+      <p data-i18n="footer.copyright">&copy; 2025 Red Pine. All rights reserved.</p>
     </footer>
+    <script src="i18n.js"></script>
     <script src="script.js"></script>
   </body>
 </html>

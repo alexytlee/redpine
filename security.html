@@ -17,11 +17,22 @@
             </a>
           </div>
           <ul class="nav-links">
-            <li><a href="index.html">Home</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="security.html" class="active">Security</a></li>
-            <li><a href="support.html">Support</a></li>
+            <li><a href="index.html" data-i18n="nav.home">Home</a></li>
+            <li><a href="about.html" data-i18n="nav.about">About</a></li>
+            <li><a href="security.html" class="active" data-i18n="nav.security">Security</a></li>
+            <li><a href="support.html" data-i18n="nav.support">Support</a></li>
           </ul>
+          <div class="language-selector">
+            <div class="lang-button">
+              <span class="current-lang">EN</span>
+              <span class="lang-icon"></span>
+            </div>
+            <div class="language-dropdown">
+              <button data-lang="en">English</button>
+              <button data-lang="zh-hant">繁體中文</button>
+              <button data-lang="zh-hans">简体中文</button>
+            </div>
+          </div>
         </div>
       </nav>
     </header>
@@ -29,13 +40,15 @@
     <main>
       <div class="page-container">
         <div class="page-header">
-          <h1>Security</h1>
-          <p class="page-subtitle">Your assets' security is our top priority</p>
+          <h1 data-i18n="security.title">Security</h1>
+          <p class="page-subtitle" data-i18n="security.subtitle">
+            Your assets' security is our top priority
+          </p>
         </div>
 
         <section class="content-section">
-          <h2>Multi-Layer Security Architecture</h2>
-          <p>
+          <h2 data-i18n="security.intro.title">Multi-Layer Security Architecture</h2>
+          <p data-i18n="security.intro.content">
             Red Pine is being built with institutional-grade security measures
             to protect your digital assets. Our comprehensive security approach
             includes multiple layers of protection.
@@ -44,49 +57,53 @@
 
         <section class="security-grid">
           <div class="security-item">
-            <h3>🏦 Cold Storage</h3>
-            <p>
+            <h3 data-i18n="security.features.coldStorage.title">🏦 Cold Storage</h3>
+            <p data-i18n="security.features.coldStorage.desc">
               The majority of digital assets will be stored in offline cold
               wallets, protected from online threats.
             </p>
           </div>
 
           <div class="security-item">
-            <h3>🔐 Multi-Signature</h3>
-            <p>
+            <h3 data-i18n="security.features.multiSig.title">🔐 Multi-Signature</h3>
+            <p data-i18n="security.features.multiSig.desc">
               Multi-signature technology requiring multiple approvals for
               transactions.
             </p>
           </div>
 
           <div class="security-item">
-            <h3>🛡️ DDoS Protection</h3>
-            <p>
+            <h3 data-i18n="security.features.ddos.title">🛡️ DDoS Protection</h3>
+            <p data-i18n="security.features.ddos.desc">
               Advanced protection against distributed denial-of-service attacks.
             </p>
           </div>
 
           <div class="security-item">
-            <h3>🔑 2FA Authentication</h3>
-            <p>
+            <h3 data-i18n="security.features.twoFA.title">🔑 2FA Authentication</h3>
+            <p data-i18n="security.features.twoFA.desc">
               Two-factor authentication for all account access and withdrawals.
             </p>
           </div>
 
           <div class="security-item">
-            <h3>🔍 Real-Time Monitoring</h3>
-            <p>24/7 security monitoring and anomaly detection systems.</p>
+            <h3 data-i18n="security.features.monitoring.title">🔍 Real-Time Monitoring</h3>
+            <p data-i18n="security.features.monitoring.desc">
+              24/7 security monitoring and anomaly detection systems.
+            </p>
           </div>
 
           <div class="security-item">
-            <h3>🏗️ Secure Infrastructure</h3>
-            <p>Enterprise-grade infrastructure with regular security audits.</p>
+            <h3 data-i18n="security.features.infrastructure.title">🏗️ Secure Infrastructure</h3>
+            <p data-i18n="security.features.infrastructure.desc">
+              Enterprise-grade infrastructure with regular security audits.
+            </p>
           </div>
         </section>
 
         <section class="content-section">
-          <h2>Compliance & Regulation</h2>
-          <p>
+          <h2 data-i18n="security.compliance.title">Compliance & Regulation</h2>
+          <p data-i18n="security.compliance.content">
             We are building Red Pine to comply with Hong Kong's regulatory
             framework for virtual asset trading platforms. Our commitment to
             compliance ensures a secure and trustworthy environment for all
@@ -95,8 +112,8 @@
         </section>
 
         <section class="content-section">
-          <h2>Data Protection</h2>
-          <p>
+          <h2 data-i18n="security.dataProtection.title">Data Protection</h2>
+          <p data-i18n="security.dataProtection.content">
             User data is encrypted and stored securely. We implement best
             practices in data protection and privacy, ensuring your personal
             information remains confidential.
@@ -106,8 +123,9 @@
     </main>
 
     <footer>
-      <p>&copy; 2025 Red Pine. All rights reserved.</p>
+      <p data-i18n="footer.copyright">&copy; 2025 Red Pine. All rights reserved.</p>
     </footer>
+    <script src="i18n.js"></script>
     <script src="script.js"></script>
   </body>
 </html>
